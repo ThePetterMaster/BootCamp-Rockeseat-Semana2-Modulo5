@@ -31,7 +31,7 @@ Escrever HTML dentro do JavaScript
 
 O Babel converte o código JS de uma forma que o browser entenda;
 
-• O Webpack possui várias funcões:
+O Webpack possui várias funcões:
 
 • Criação do bundle, arquivo com todo código da aplicação;
 
