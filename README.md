@@ -16,3 +16,25 @@ function Button() {
  );
 }
 ````
+
+# Componentização
+
+A aplicação é dividida em componentes.Componente é uma parte independente da aplicação.
+
+# JSX 
+
+Escrever HTML dentro do JavaScript
+
+# Babel / Webpack
+
+ O browser não entende todo esse código;
+
+O Babel converte o código JS de uma forma que o browser entenda;
+
+• O Webpack possui várias funcões:
+
+• Criação do bundle, arquivo com todo código da aplicação;
+
+• Ensinar ao JavaScript como importar arquivos CSS, imagens e etc;
+
+• Live reload com Webpack Dev Server;
