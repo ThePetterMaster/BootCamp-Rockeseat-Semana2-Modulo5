@@ -63,6 +63,9 @@ module.exports={
         //traduz a sintaxe do react
         "@babel/preset-react"
     ],
+    plugins:[
+      ' @babel/plugin-proposal-class-properties'
+    ]
 };
 ````
 # Arquivo de configuração do webpack
@@ -136,4 +139,54 @@ yarn add style-loader css-loader -d
 
 ````
 yarn add file-loader -d
+````
+
+# Plugin Proposal Class properties
+Analisando um componente em formato de classe
+````
+class TechList extends Component{
+    state={
+        techs:[
+            'Node.js',
+            'ReactJS',
+            'React Native'
+        ]
+    };
+    render(){
+        return(
+            <ul>
+                <li>Node.js</li>
+                <li>ReactJS</li>
+                <li>React Native</li>
+            </ul>
+        );
+    }
+}
+````
+O react não entende variaveis(nesse caso state) de classe de seus componentes, para resolver isso pode colocar dentro de um construtor:
+````
+class TechList extends Component{
+    constructor(){
+      this.state={
+          techs:[
+              'Node.js',
+              'ReactJS',
+              'React Native'
+          ]
+      };
+     }
+    render(){
+        return(
+            <ul>
+                <li>Node.js</li>
+                <li>ReactJS</li>
+                <li>React Native</li>
+            </ul>
+        );
+    }
+}
+````
+ou instalar um plugin
+````
+yarn add @babel/plugin-proposal-class-properties -d
 ````
