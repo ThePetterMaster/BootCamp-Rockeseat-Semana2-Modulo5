@@ -63,9 +63,7 @@ module.exports={
         //traduz a sintaxe do react
         "@babel/preset-react"
     ],
-    plugins:[
-      ' @babel/plugin-proposal-class-properties'
-    ]
+   plugins:['@babel/plugin-proposal-class-properties']
 };
 ````
 # Arquivo de configuração do webpack
