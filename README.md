@@ -89,7 +89,13 @@ module.exports={
                 exclude:/node_modules/,
                 use:{
                     loader:'babel-loader'
-                }
+                },{
+                test:/\.css$/,
+                use:[
+                    {loader:'style-loader'},
+                    {loader:'css-loader'}
+                ]
+            }
             }
         ]
     }
@@ -113,4 +119,9 @@ build= o bundle.js fica compacto
 
 dev=seria o nodemon do react. Após isso será possível ver em http://localhost:8080/
 
+# Instalando biblioteca para carregamento de css pelo webpack
+
+````
+yarn add style-loader css-loader -d
+````
 
