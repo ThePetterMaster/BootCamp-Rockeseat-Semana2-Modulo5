@@ -111,5 +111,6 @@ build2= o bundle.js fica legível(com quebra de linha e espaços.
 
 build= o bundle.js fica compacto
 
-dev=seria o nodemon do react.
+dev=seria o nodemon do react. Após isso será possível ver em http://localhost:8080/
+
 
