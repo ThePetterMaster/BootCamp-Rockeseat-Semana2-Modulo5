@@ -125,3 +125,8 @@ dev=seria o nodemon do react. Após isso será possível ver em http://localhost
 yarn add style-loader css-loader -d
 ````
 
+# Instalando biblioteca para carregamento de imagens pelo webpack
+
+````
+yarn add file-loader -d
+````
