@@ -196,3 +196,8 @@ PropTypes é uma biblioteca que serve para obrigar que as propriedades que sejam
 ````
  yarn add prop-types
  ````
+ 
+ # Debugando React com DevTools
+ 
+É uma extensão que eu usei no google chrome para o react
+https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=pt-BR
