@@ -188,3 +188,11 @@ ou instalar um plugin
 ````
 yarn add @babel/plugin-proposal-class-properties -d
 ````
+
+# Default Props & PropTypes
+Default Props serve para atribuir valor a uma propriedade caso ela não tenha sido passada pelo componente.
+
+PropTypes é uma biblioteca que serve para obrigar que as propriedades que sejam passadas sejam de um determinado tipo.
+````
+ yarn add prop-types
+ ````
